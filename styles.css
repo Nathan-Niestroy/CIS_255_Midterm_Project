@@ -1,0 +1,10 @@
+:root {
+    --background-color: #1e1e1e;
+    --nav-color: #2d2d2d;
+    --text-color: #ffffff;
+    --accent-color: #ff0000;
+    --link-color: #8e8e8e;
+    --link-hover-color: var(--accent-color);
+    --card-background: #2a2a2a;
+    --card-border: #3a3a3a;
+}
