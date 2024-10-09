@@ -32,3 +32,21 @@ header {
     align-items: center;
     padding: 20px 60px;
 }
+header h1 {
+    font-size: 25px;
+    color: var(--text-color);
+    flex-grow: 1;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
