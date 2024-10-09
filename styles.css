@@ -94,3 +94,38 @@ section h2 {
 .read-more:hover {
     color: var(--accent-color);
 }
+
+#home .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#home .home-text {
+    flex: 1;
+}
+
+#home .home-image img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.home-quote {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-quote p {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.quote-author {
+    color: var(--link-color);
+    margin-top: 5px;
+    font-style: normal;
+}
